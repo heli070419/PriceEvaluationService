@@ -4,6 +4,6 @@
 <br />
 <footer class="footer">
 	<div class="container">
-		<p class="text-muted">&copy;DaiGou</p>
+		<p class="text-muted">&copy;Price Evaluation Service</p>
 	</div>
 </footer>

@@ -3,4 +3,8 @@
 
 <br />
 <br />
-<p>Price Evaluation Service Home Page</p>
+<br />
+<br />
+<div class="container">
+	<p>Price Evaluation Service Home Page</p>
+</div>

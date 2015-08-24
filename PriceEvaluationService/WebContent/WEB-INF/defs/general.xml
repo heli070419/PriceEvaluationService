@@ -13,10 +13,10 @@
 	</definition>
 	<definition name="productForm" extends="common">
 		<put-attribute name="title" value="Product Form" />
-		<put-attribute name="body" value="/WEB-INF/jsp/productForm.jsp" />
+		<put-attribute name="body" value="/WEB-INF/pages/productForm.jsp" />
 	</definition>
 	<definition name="evaluateResult" extends="common">
 		<put-attribute name="title" value="Price Evaluation Service" />
-		<put-attribute name="body" value="/WEB-INF/jsp/evaluateResult.jsp" />
+		<put-attribute name="body" value="/WEB-INF/pages/evaluateResult.jsp" />
 	</definition>
 </tiles-definitions>

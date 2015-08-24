@@ -16,7 +16,7 @@ public class ProductController {
 	@Autowired
 	private ProductService productSerivce;
 
-	@RequestMapping(value = "/product")
+	@RequestMapping(value = "/product.html")
 	protected ModelAndView productPage(){
 
 		ModelAndView modelAndView = new ModelAndView("productForm");

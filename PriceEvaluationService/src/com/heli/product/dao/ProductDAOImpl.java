@@ -2,8 +2,6 @@ package com.heli.product.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.List;
-
 import javax.sql.DataSource;
 
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -23,7 +21,7 @@ public class ProductDAOImpl implements ProductDAO {
 	private String query_insert = "INSERT INTO Product(product_id, product_name, original_price, mail_price, list_price, second_sale_price, product_weight, product_desc)"
 			+ "VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 	
-	private String query_update = " ";
+//	private String query_update = " ";
 
 	/**
 	 * we use constructor here to instantiate datasource and jdbcTemplate in spring
